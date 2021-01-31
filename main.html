@@ -11,7 +11,7 @@
 
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="vendor/bootstrap/css/bootstrap.min.css" href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
@@ -23,24 +23,41 @@
 <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg  navbar-dark  fixed-top" style="background-color:#161616;height: 115px;" id="mainNav">
+        <a class="navbar-brand js-scroll-trigger " href="#page-top">
+            <img src="img/iconRefill.png" style="height:100px; width:200px; position: relative;">
+        </a>
         <div class="container">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <img src="img/iconRefillemoji.png" style="height:50px; width:50px; ">
-            </a>
+
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+            <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
+            <div class="collapse navbar-collapse" style="color: #0f1922;" id="navbarResponsive">
+                <ul class="navbar-nav ">
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" style="color: powderblue; font-size:x-large;font-weight: 200;" href="#about">About</a>
+                        <a class="nav-link js-scroll-trigger" style="color: powderblue; font-size:x-large;font-weight: 200; position: relative; left:15%" href="Pricing.html">Pricing</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" style="color: powderblue; font-size:x-large; font-weight: 200;" href="#services">Participate</a>
+                        <a class="nav-link js-scroll-trigger" style="color: powderblue; font-size:x-large;font-weight: 200; position: relative; left: 100% " href="Products.html">Products</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link js-scroll-trigger" style="color: powderblue; font-size:x-large;font-weight: 200;" href="#contact">Contact</a>
+                        <a class="nav-link js-scroll-trigger" style="color: powderblue; font-size:x-large;font-weight: 200; position: relative; left: 230%" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" style="color: powderblue; font-size:x-large;font-weight: 200; position: relative; left:300%" href="#contact">Contact</a>
+                    </li>
+
+
+                    <lii class="nav-item" style="position: absolute; font-size:25px; left:75%; top:35px;  outline-color:rgb(150, 29, 29);">
+                        <form id="search-form">
+                            <div class="search">
+                                <input type="text" name="search" style="height: 50px; background-color: rgb(255, 255, 255);" class="round" placeholder="Search..." />
+                                <!-- <input type="submit" class="corner" value="" /> -->
+                            </div>
+                        </form>
+                    </lii>
+                    <li class="nav-item">
+                        <button type="button" style="position: absolute; left:90%; top:40px;" class="btn btn-outline-success btn-dark">   Sign In   </button>
                     </li>
                 </ul>
             </div>
@@ -48,98 +65,163 @@
     </nav>
 
 
-
-    <!-- <video autoplay loop id="vid">
-        <source src="img/Film.mp4" type="video/mp4">
-    </video> -->
-
-    <header>
+    <!-- <header>   this is if we want a video
 
         <video playsinline="playsinline" autoplay="autoplay" loop="loop">
           <source src="img/Idk.mp4" type="video/mp4" style="width: 640; height: 360">
         </video>
+    </header> -->
+
+    -->
+    <header class="text-white" style="height: 125%">
+        <h1 style="font-size: 650%; position: relative; left:16%">Re-Fill</h1>
+        <h2 style="font-size: 300%; position: relative; left:15%">Snacks, Subscribed.</h2>
+        <div class="row">
+            <a href="">
+                <img src="img/OrderNowButton.png" style="position:relative; left:65%; top:10%">
+                <img src="img/ContactUsButton.png" style="position: relative; left: 80%; top:10%; height: 61px">
+            </a>
+        </div>
+        <img src="img/ReFill_small_logo.png" style="position: relative; left:55%; top:-60%">
+
     </header>
 
-    <section id="about">
 
-        <body style="background-color:#0f1922">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 style="color:powderblue">What is ReFill?</h2>
-                        <p class="lead" style="color:powderblue">ReFill is a platform that allows users to choose whatever pantry snacks they want from their local grocery stores and have them shipped to their homes on a customizable subscription schedule. Your snack choices, your schedule.
-                        </p>
-                        <ul style="color:powderblue">
-                            <li>Have regular meetings? Use ReFill to save time from your busy schedule and keep your colleagues' brains stimulated</li>
-                            <li>Working hard with a busy schedule at school? Watch for your ReFill shipment and keep on the grind</li>
-                            <li>Many diet-affecting diseases require regular consumption of special dietary ingredients. Allow ReFill to provide nutritious snacks without the hassle of going out.</li>
-                            <li>Don't want the commitment? Don't worry, ReFill will have the option for a one-time shipment</li>
-                        </ul>
+
+
+    <section id="about">
+        <div class="diagonal-box">
+            <div class="content" style="padding-top: 10%; padding-bottom: 10%;">
+
+                <body style="background-color:#000000">
+                    <div class="container" style="transform: skewY(-4deg);">
+                        <div class="row">
+                            <div class="col-lg-20 mx-auto">
+                                <h2 style="color:rgb(26, 53, 56);font-size: 600%;">What is ReFill?</h2>
+                                <p class="lead" style="color:rgb(26, 53, 56); font-size: 200%;">ReFill is a platform that allows users to choose whatever pantry snacks they want from their local grocery stores and have them shipped to their homes on a customizable subscription schedule. Your snack choices, your schedule.
+                                </p>
+                                <ul style="color:rgb(26, 53, 56);font-size: 150%; padding-top: 2%;">
+                                    <li style="padding-bottom: 2%;">Have regular meetings? Use ReFill to save time from your busy schedule and keep your colleagues' brains stimulated</li>
+                                    <li style="padding-bottom: 2%;">Working hard with a busy schedule at school? Watch for your ReFill shipment and keep on the grind</li>
+                                    <li style="padding-bottom: 2%;">Many diet-affecting diseases require regular consumption of special dietary ingredients. Allow ReFill to provide nutritious snacks without the hassle of going out.</li>
+
+                                </ul>
+                            </div>
+                        </div>
                     </div>
-                </div>
             </div>
+        </div>
+
+
     </section>
 
-    <section id="services">
+    <!-- <section id="services">
 
         <body style="background-color:powderblue;">
             <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 mx-auto">
-                        <h2 style="color:powderblue">Wanna Help Out?</h2>
-                        <p class="lead" style="color:powderblue">Don't be afraid to take this short survey that can help us shape our solution to perfectly cater to whatver bothers you. ReFill is for the people and this helps us understand what you want to see change.</p>
-                        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5ExKaaabHBzkqEryl-ZmvkFwkEcRgOW3mwG4SN1B5uPk60Q/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-                    </div>
-                </div>
+               
             </div>
         </body>
-    </section>
+    </section> -->
 
     <section id="contact">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 mx-auto">
-                    <h2 style="color:powderblue">Contact Me!</h2>
-                    <p class="lead" style="color:powderblue"> Feel free to contact Farzad for any inquiry!
-                        <br>
-                        <a href="https://mail.google.com/mail/u/?authuser=farzadrahman20@gmail.com">
-                            <img src="img/mail.png" alt="Email" style="width:50px" style="height:50px" style="padding-top: 30px;">
-                        </a>
-                        <a href="https://www.linkedin.com/in/farzad-rahman-929ab5191/ ">
-                            <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="LinkedIN" style="width:50px" style="height:50px" style="padding-top: 30px;">
-                        </a>
-                    </p>
-                    <p class="lead" style="color: powderblue;"> Check out the ReFill LinkedIn Page!
-                        <br>
-                        <a href="https://www.linkedin.com/company/70567822/admin/">
-                            <img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="LinkedIN" style="width:50px" style="height:50px" style="padding-top: 30px;">
-                        </a>
+            <!-- <div class="row"> -->
+            <div class="col-lg-13 mx-auto">
+                <h2 style="color:powderblue">Contact Us!</h2>
+                <p class="lead" style="color:powderblue"> Feel free to contact any of us for any inquiry!
+                </p>
 
-                    </p>
+
+                <div class="container">
+
+                    <h2 style="color: rgba(133, 16, 74, 0.726);">
+                        Farzad Rahman
+                    </h2>
+                    <a href="https://farzadr-dev.github.io/">
+                        <img src="img/IMG_7595.jpg" alt="His Site" style="height:90px; width:90px">
+                    </a>
+
+
+
+                    <h2 style="color: rgba(32, 90, 214, 0.911);">
+                        Rashaad Anwar
+                    </h2>
+                    <a href="https://www.linkedin.com/in/rashaad-anwar-592052201/">
+                        <img src="https://media-exp1.licdn.com/dms/image/C4E03AQH3yGXWAeF8cA/profile-displayphoto-shrink_200_200/0/1610115009420?e=1616025600&v=beta&t=g2dd_cUnlfuc3JKMX2CWheyh30in8y01S7FHIswALnE" style="height:90px; width:90px">
+                    </a>
+
+
+                    <h2 style="color: rgba(8, 153, 73, 0.726); padding-right: 5px;">
+                        Vishnu Sharma
+                    </h2>
+                    <a href="https://www.linkedin.com/in/vishnu-sharma-7834a11b4/" ">
+                                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQHo5x56p-g7Gw/profile-displayphoto-shrink_200_200/0/1610154081042?e=1616025600&v=beta&t=OD-_jBG3RUktSwnMGt7drQivoyroh4QiVHdfqj16FjE " style="height:90px; width:90px ">
+                    </a>
+
+                    <h2 style="color: rgb(206, 17, 17); position: relative; left: 5%; top: 15%; padding-left: 0px; padding-top: 5px; ">
+                        Michael 
+                        <br> Danzinger <br>
+                    </h2>
+                    <a href=" mailto:bogartjr177@gmail.com " >
+                                <img src="https://media-exp1.licdn.com/dms/image/C4D03AQGy9HeGqeORxA/profile-displayphoto-shrink_200_200/0/1598976690502?e=1617235200&v=beta&t=x_hAzq9hMsOTI3Nr5FCpjgi6P2rYKJOzdpyhoJ0Ja6M " style="height:90px; width:90px;
+                        position: relative; left: 85% ">
+                    </a>
+
+                    <h2 style="color: rgb(170, 172, 97); padding-left: 75px; padding-top: 10px; position: relative; left: 4% ">
+                        Joonseo Lee
+                    </h2>
+                    <a href="https://ca.linkedin.com/in/joonseo-lee-a5654a200 ">
+                        <img src="img/joon.jpg " style="height:90px; width:90px; position: relative; left: 50% ">
+                    </a>
+
+                    <h2 style="color: rgb(212, 151, 17); padding-left: 75px; padding-top: 10px; ">
+                        Yunus Thai
+                    </h2>
+                    <a href="mailto:yunusthai05@gmail.com ">
+                        <img src="img/Yunus.png " style="height:90px; width:90px; position: relative; left: 39% ">
+                    </a>
                 </div>
+
+                <div class="container ">
+
+
+                </div>
+
+
+                <p class="lead " style="color: powderblue; padding-top: 40px; "> Check out the ReFill LinkedIn Page!
+                    <br>
+                    <a href="https://www.linkedin.com/company/70567822/admin/ ">
+                        <img src="https://image.flaticon.com/icons/png/512/174/174857.png " alt="LinkedIN " style="width:50px " style="height:50px " style="padding-top: 30px; ">
+                    </a>
+
+                </p>
+
+
             </div>
+            </body>
         </div>
-        </body>
     </section>
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark">
-        <div class="container">
-            <p class="m-0 text-center text-white"></p>
+    <footer class="py-5 bg-dark ">
+        <div class="container ">
+            <p class="m-0 text-center text-white "></p>
         </div>
-        <!-- /.container -->
+
     </footer>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="vendor/jquery/jquery.min.js "></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js "></script>
 
     <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.min.js "></script>
 
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
 
+    <script src="js/scrolling-nav.js "></script>
+
+    <script src="js/Storage.js "></script>
 
 
 
