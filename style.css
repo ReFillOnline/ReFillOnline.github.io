@@ -4,7 +4,6 @@ html {
     padding: 0;
     height: 100%;
     background-color: #101010;
-    font-family: 'made_evolve_sansmedium', Arial, sans-serif;
     overflow: auto;
     scroll-behavior: smooth;
 }
