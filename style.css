@@ -9,20 +9,6 @@ html {
     scroll-behavior: smooth;
 }
 
-@font-face {
-    font-family: 'semibold';
-    font-style: normal;
-    font-weight: normal;
-    src: local('semibold'), url('/fonts/MYRIADPRO-SEMIBOLD.woff') format('woff');
-    }
-  
-  @font-face {
-      font-family: 'bold';
-      font-style: normal;
-      font-weight: normal;
-      src: local('bold'), url('/fonts/MYRIADPRO-BOLD.woff') format('woff');
-    }
-  
   @font-face {
       font-family: 'manrope';
       font-style: normal;
@@ -30,72 +16,25 @@ html {
       src: local('regular'), url('/fonts/manrope.woff') format('woff');
     }
   
-h1 {
-    font-family: 'bold', Arial, sans-serif;
-    color: white;
-}
-
-h2{
-    font-family: 'bold', Arial, sans-serif;
-    color: white;
-    font-size: 5vw;
-}
-
-h3{
-    font-family: 'bold', Arial, sans-serif;
-    color: white;
-    font-size: 2vw;
-}
-
 p {
     font-family: 'manrope', Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.25vw
 }
 
 .container {
     display: inline-flex;
     height: 100%;
     width: 100%;
-    background-color: #202020;
-    flex-flow: row wrap;
-    align-items: center;
-    justify-content: center;
-}
-
-.leftbar {
-    display: inline-flex;
-    height: 100%;
-    width: 30%;
     background-color: #101010;
     flex-flow: column nowrap;
     align-items: center;
-    justify-content: center;
-    font-size: 3vw;
+    justify-content: space-evenly;
 }
 
-.right {
-    display: inline-flex;
-    height: 100%;
-    width: 70%;
-    background-color: #101010;
-    flex-flow: column nowrap;
-    align-items: center;
-    justify-content: space-around;
-}
 
-@media screen and (max-width: 900px) {
-    .leftbar {
-        width: 100%;
-        height: 30%;
-        font-size: 7vw;
-    }
-    .right {
-        width: 100%;
-        height: 70%
-    }
-    h2 {
-        font-size: 6vw;
-    }
-    h3 {
-        font-size: 3vw;
+@media screen and (max-width: 1000px) {
+    p {
+        font-size: 2vw;
     }
 }
